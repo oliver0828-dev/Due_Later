@@ -1,0 +1,136 @@
+/* Overall body styling */
+body {
+  margin: 0;
+  padding: 20px;
+  width: 300px;
+  font-family: "Arial", sans-serif;
+  background: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Bubble header with icon */
+.header-bubble {
+  display: inline-flex;
+  align-items: center;
+  background-color: #4ba6fa;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.header-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.header-text {
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Main title: LOCK IN MODE */
+.title {
+  margin: 10px 0 20px 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+/* The box for “REMAINING TIME” + timer */
+.time-container {
+  background-color: #4caf50;
+  padding: 10px;
+  margin: 0 auto 20px auto;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.time-container h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.time-display {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  font-size: 24px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Sections for Focus Mode, etc. */
+.section {
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* ON/OFF toggle */
+.toggle-area {
+  margin: 20px auto;
+}
+
+.toggle-button {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  background-color: #ff5e50; /* OFF color */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-text {
+  z-index: 2;
+}
+
+.toggle-circle {
+  position: absolute;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+/* OFF state: red, circle on the right */
+.off-state .toggle-circle {
+  right: 5px;
+}
+
+/* ON state: green, circle on the left */
+.on-state {
+  background-color: #4caf50;
+}
+
+.on-state .toggle-circle {
+  left: 5px;
+  right: auto;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Due Later: Senioritis Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Bubble header -->
+  <div class="header-bubble">
+    <img src="icon128.png" alt="icon" class="header-icon" />
+    <span class="header-text">Due Later: Senioritis Edition</span>
+  </div>
+
+  <!-- LOCK IN MODE title -->
+  <h1 class="title">LOCK IN MODE</h1>
+
+  <!-- Box for “REMAINING TIME” + the timer -->
+  <div class="time-container">
+    <h3>REMAINING TIME:</h3>
+    <div id="timerDisplay" class="time-display">00:00</div>
+  </div>
+
+  <!-- Focus Mode checkbox -->
+  <div class="section">
+    <h3>Focus Mode</h3>
+    <label>
+      <input type="checkbox" id="focusCheck" />
+      Did you have 2+ hours of social media today?
+    </label>
+  </div>
+
+  <!-- Buttons: Pause Timer, Stop Everything -->
+  <div class="section">
+    <button id="pauseTimerBtn" disabled>Pause Timer</button>
+    <button id="stopEverythingBtn">Stop Everything</button>
+  </div>
+
+  <!-- ON/OFF toggle button -->
+  <div class="toggle-area">
+    <button id="lockToggleBtn" class="toggle-button off-state">
+      <span class="toggle-text">OFF</span>
+      <span class="toggle-circle"></span>
+    </button>
+  </div>
+
+  <!-- Excuse Generator Section -->
+  <div class="section">
+    <button id="excuseGeneratorBtn">Generate Excuse</button>
+    <div id="excuseDisplay" style="margin-top:10px; color:#555;"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
