@@ -28,5 +28,8 @@ We’re heartbroken that you want to stop using the extension, but if you must..
 2. Locate the **Due Later** extension.
 3. Click on **Remove** and confirm the removal from the pop-up screen.
 
-For the full instructions, please visit: [Full Instructions Link](https://docs.google.com/document/d/1DuAxBlpRcn9dVq0Ll7GYrvjBH4OwlBXdt5DzXpTK_go/edit?usp=sharing)
+## Project Video
+Watch the project demo here: [YouTube Video](https://www.youtube.com/watch?v=cyhb0shIjmg)
+
+For the full instructions, please visit: [Full Instructions Link (Google Docs)](https://docs.google.com/document/d/1DuAxBlpRcn9dVq0Ll7GYrvjBH4OwlBXdt5DzXpTK_go/edit?usp=sharing)
 
