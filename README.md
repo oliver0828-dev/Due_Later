@@ -1,3 +1,4 @@
+![Due Later - Scrapyard Busan](https://raw.githubusercontent.com/oliver0828-dev/Due_Later/main/scrapyard.png)
 # Due Later
 
 **Team Name:** 팔공80년산 (Daegu International School)  
