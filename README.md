@@ -5,7 +5,7 @@
 
 ## Setup Instructions
 1. Please go to this link to download the files: [Download Link](https://docs.google.com/uc?export=download&id=1Vc32q9m0DK75uyLjg6Aw2_I0McAStfg8)
-2. Upon downloading, you will find a zip file and a folder.
+2. Upon downloading, you will find a zip file.
 3. Extract the zip file and move the "Due_Later" folder to your desktop.
 4. Open Google Chrome.
 5. Navigate to `chrome://extensions/`.
